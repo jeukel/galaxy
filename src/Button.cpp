@@ -1,5 +1,5 @@
 //Includes
-#include 	"Button.h"				//Own funtions definition
+#include 	"Button.h"				//Own functions definition
 
 Button::Button() {
 	
@@ -13,7 +13,7 @@ Button::~Button() {
 	delete image_over;
 }
 
-//Verifies if the given coordenates are in the button area.
+//Verifies if the given coordinates are in the button area.
 bool Button::Over(int param_x, int param_y) {
 	
 	return	((param_x >= x) &&
